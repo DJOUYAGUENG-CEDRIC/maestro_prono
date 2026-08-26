@@ -39,18 +39,18 @@ export default function ChatInput({ onSend, disabled }) {
         className="flex-1 rounded-full px-4 py-2.5 text-sm outline-none transition-all disabled:opacity-50 disabled:cursor-not-allowed"
         style={{
           background: '#ffffff',
-          color: '#7f1d1d',
-          border: '1px solid #fde68a',
+          color: '#134e4a',
+          border: '1px solid #99f6e4',
         }}
-        onFocus={(e) => { e.target.style.borderColor = '#f59e0b'; e.target.style.boxShadow = '0 0 0 2px rgba(245,158,11,0.2)'; }}
-        onBlur={(e) => { e.target.style.borderColor = '#fde68a'; e.target.style.boxShadow = 'none'; }}
+        onFocus={(e) => { e.target.style.borderColor = '#0d9488'; e.target.style.boxShadow = '0 0 0 2px rgba(13,148,136,0.2)'; }}
+        onBlur={(e) => { e.target.style.borderColor = '#99f6e4'; e.target.style.boxShadow = 'none'; }}
         autoComplete="off"
       />
       <button
         type="submit"
         disabled={!value.trim() || disabled}
         className="shrink-0 w-10 h-10 rounded-full flex items-center justify-center transition-colors shadow text-white"
-        style={{ background: value.trim() && !disabled ? '#dc2626' : '#fecaca', cursor: value.trim() && !disabled ? 'pointer' : 'not-allowed' }}
+        style={{ background: value.trim() && !disabled ? '#0d9488' : '#99f6e4', cursor: value.trim() && !disabled ? 'pointer' : 'not-allowed' }}
         aria-label="Envoyer"
       >
         <SendIcon />

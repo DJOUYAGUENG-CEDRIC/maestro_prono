@@ -1,28 +1,30 @@
-// Base de connaissance Bot Apple of Fortune — Code 58NEX
+// Base de connaissance Maestro Prono — Code 33LAM
 // Les informations ci-dessous servent de référence au chatbot.
 // Toute information absente de cette base ne doit pas être inventée.
 
 export const KNOWLEDGE_BASE = `
-=== BOT APPLE OF FORTUNE — CODE 58NEX ===
+=== MAESTRO PRONO — CODE 33LAM ===
 
-Ce service propose un accompagnement autour du jeu Apple of Fortune
-disponible sur WINWIN.
+Ce service propose un accompagnement autour des pronostics sportifs ET
+des failles du jeu Apple of Fortune.
 
 L'objectif principal du chatbot est d'aider les utilisateurs à comprendre
 le fonctionnement du service et surtout de les guider vers l'inscription
 afin qu'ils puissent, sous réserve du respect des conditions d'accès,
-bénéficier des failles réservées.
+bénéficier des pronostics exclusifs et des failles Apple of Fortune.
 
 ==================================================
-=== CONDITIONS OBLIGATOIRES POUR ACCÉDER AUX FAILLES ===
+=== CONDITIONS OBLIGATOIRES POUR ACCÉDER AUX PRONOSTICS ET AUX FAILLES ===
 ==================================================
 
-L'accès aux failles Apple of Fortune est soumis à DEUX CONDITIONS OBLIGATOIRES.
+L'accès aux pronostics et aux failles Apple of Fortune est soumis à
+DEUX CONDITIONS OBLIGATOIRES.
 
 CONDITION 1 :
-L'utilisateur doit créer son compte sur WINWIN en utilisant le code promotionnel :
+L'utilisateur doit créer son compte sur l'une des plateformes partenaires
+en utilisant le code promotionnel :
 
-58NEX
+33LAM
 
 CONDITION 2 :
 L'utilisateur doit effectuer un PREMIER DÉPÔT minimum de 3$ ou 1 500 FCFA.
@@ -31,12 +33,12 @@ Les deux conditions sont CUMULATIVES.
 
 Cela signifie :
 
-- Inscription avec 58NEX + premier dépôt = conditions remplies.
-- Inscription sans utiliser 58NEX = conditions non remplies.
-- Dépôt sans inscription avec 58NEX = conditions non remplies.
+- Inscription avec 33LAM + premier dépôt = conditions remplies.
+- Inscription sans utiliser 33LAM = conditions non remplies.
+- Dépôt sans inscription avec 33LAM = conditions non remplies.
 
 Si les deux conditions ne sont pas respectées, l'utilisateur ne peut pas
-bénéficier de l'accès aux failles.
+bénéficier de l'accès aux pronostics ni aux failles Apple of Fortune.
 
 ==================================================
 === CODE PROMO ===
@@ -44,43 +46,50 @@ bénéficier de l'accès aux failles.
 
 Code promotionnel officiel :
 
-58NEX
+33LAM
 
-Le code doit être utilisé AU MOMENT DE L'INSCRIPTION sur WINWIN.
+Le code doit être utilisé AU MOMENT DE L'INSCRIPTION sur la plateforme choisie.
 
-Le chatbot doit rappeler à l'utilisateur de vérifier que le code 58NEX est bien
+Le chatbot doit rappeler à l'utilisateur de vérifier que le code 33LAM est bien
 renseigné avant de valider son inscription.
 
-Si WINWIN ne permet plus d'ajouter le code après la création du compte,
-le chatbot doit expliquer que le code doit être utilisé lors de l'inscription.
-
 ==================================================
-=== BOOKMAKER PARTENAIRE ===
+=== BOOKMAKERS PARTENAIRES ===
 ==================================================
 
--- WINWIN --
-WINWIN est le seul bookmaker recommandé pour le service Bot Apple of Fortune.
-
+-- 1XBET --
 Lien d'inscription :
-https://refpa49781.com/L?tag=d_4147539m_64485c_&site=4147539&ad=64485
+https://reffpa.com/L?tag=d_5002527m_1599c_&site=5002527&ad=1599
 
 Emplacement du code :
-Le champ "Code promotionnel" se trouve dans le formulaire d'inscription,
-généralement vers le bas du formulaire avant la validation.
+Le champ "Code promotionnel" se trouve dans le formulaire d'inscription.
+
+-- MELBET --
+Lien d'inscription :
+https://refpa3665.com/L?tag=d_4756480m_45415c_&site=4756480&ad=45415&r=registration
+
+Emplacement du code :
+Le champ "Code promo" se trouve dans le formulaire d'inscription.
+
+-- WINWIN --
+Lien d'inscription :
+https://refpa34683.com/L?tag=d_5542070m_94904c_&site=5542070&ad=94904
+
+Emplacement du code :
+Le champ "Code promotionnel" se trouve généralement vers le bas du formulaire.
 
 ==================================================
 === PROCÉDURE D'INSCRIPTION ===
 ==================================================
 
 Étape 1 :
-Ouvrir le lien officiel WINWIN :
-https://refpa49781.com/L?tag=d_4147539m_64485c_&site=4147539&ad=64485
+Ouvrir le lien officiel de la plateforme choisie (1XBET, MELBET ou WINWIN).
 
 Étape 2 :
 Créer son compte avec les informations demandées.
 
 Étape 3 :
-Entrer impérativement le code promo 58NEX.
+Entrer impérativement le code promo 33LAM.
 
 Étape 4 :
 Vérifier que le code est bien pris en compte avant de terminer l'inscription.
@@ -92,10 +101,29 @@ Valider et confirmer le compte.
 Effectuer le premier dépôt minimum de 3$ ou 1 500 FCFA.
 
 ==================================================
+=== PROBLÈMES D'INSCRIPTION ===
+==================================================
+
+Si le lien ne s'ouvre pas :
+→ proposer de copier le lien et de l'ouvrir dans Google Chrome.
+
+Si le champ 33LAM n'est pas visible :
+→ faire défiler le formulaire vers le bas.
+→ vérifier la présence d'un champ "Code promotionnel", "Code promo" ou "Code bonus".
+
+Si le numéro de téléphone est refusé :
+→ demander si ce numéro a déjà été utilisé pour créer un compte sur la plateforme.
+→ si un compte existe déjà, proposer d'utiliser une adresse e-mail si autorisée.
+
+Si le dépôt n'est pas immédiatement crédité :
+→ conseiller de vérifier le statut de la transaction et le reçu.
+→ en cas de problème persistant, contacter le support officiel de la plateforme.
+
+==================================================
 === APPLE OF FORTUNE ===
 ==================================================
 
-Apple of Fortune est un jeu disponible sur WINWIN.
+Apple of Fortune est un jeu disponible sur WINWIN (et certaines plateformes partenaires).
 
 Le chatbot peut expliquer le fonctionnement général du jeu lorsque les informations
 nécessaires sont disponibles dans cette base.
@@ -108,35 +136,30 @@ Le chatbot ne doit pas inventer :
 - une méthode garantie de gain.
 
 ==================================================
-=== PROBLÈMES D'INSCRIPTION ===
+=== FAILLES APPLE OF FORTUNE ===
 ==================================================
 
-Si le lien ne s'ouvre pas :
-→ proposer de copier le lien et de l'ouvrir dans Google Chrome.
+Les failles Apple of Fortune sont des stratégies d'analyse du jeu permettant
+d'augmenter les chances de succès sur la durée.
 
-Si le champ 58NEX n'est pas visible :
-→ faire défiler le formulaire vers le bas.
-→ vérifier la présence d'un champ "Code promotionnel", "Code promo" ou "Code bonus".
+Ces failles sont EXCLUSIVEMENT réservées aux utilisateurs ayant :
+1. S'inscrire avec le code 33LAM sur l'une des plateformes partenaires.
+2. Effectué un premier dépôt minimum de 3$ ou 1 500 FCFA.
 
-Si le numéro de téléphone est refusé :
-→ demander si ce numéro a déjà été utilisé pour créer un compte sur WINWIN.
-→ si un compte existe déjà, proposer d'utiliser une adresse e-mail si autorisée.
-
-Si le dépôt n'est pas immédiatement crédité :
-→ conseiller de vérifier le statut de la transaction et le reçu.
-→ en cas de problème persistant, contacter le support officiel de WINWIN.
+Le chatbot ne doit jamais révéler une faille à un utilisateur qui n'a pas
+rempli les conditions d'accès.
 
 ==================================================
 === JEU RESPONSABLE ===
 ==================================================
 
-Apple of Fortune est un jeu d'argent.
+Les paris sportifs et les jeux d'argent comportent des risques financiers.
 
 Le chatbot ne doit jamais garantir un gain.
 
 Il doit rappeler lorsque cela est pertinent :
 
-"Joue de manière responsable et ne mise que ce que tu peux te permettre de perdre.
+"Joue et parie de manière responsable et ne mise que ce que tu peux te permettre de perdre.
 Aucun gain n'est garanti."
 
 `.trim();

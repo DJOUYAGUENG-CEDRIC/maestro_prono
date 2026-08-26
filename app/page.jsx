@@ -11,7 +11,7 @@ import { WELCOME_MESSAGE, AUDIO_URL } from '@/lib/config';
 import { sendMessage } from '@/services/chatApi';
 
 function getSessionId() {
-  const key = 'dj_session_id';
+  const key = 'mpr_session_id';
   let id = sessionStorage.getItem(key);
   if (!id) { id = crypto.randomUUID(); sessionStorage.setItem(key, id); }
   return id;
@@ -71,7 +71,7 @@ export default function Page() {
   return (
     <div
       className="flex flex-col h-dvh max-w-md mx-auto overflow-hidden"
-      style={{ background: '#fff8f0', color: '#7f1d1d' }}
+      style={{ background: '#f0fdfa', color: '#134e4a' }}
     >
       <Header />
 
@@ -87,9 +87,9 @@ export default function Page() {
         {isLoading && (
           <ChatBubble sender="assistant">
             <span className="flex gap-1 items-center py-0.5">
-              <span className="w-2 h-2 rounded-full animate-bounce [animation-delay:0ms]"   style={{ background: '#f59e0b' }} />
-              <span className="w-2 h-2 rounded-full animate-bounce [animation-delay:150ms]" style={{ background: '#f59e0b' }} />
-              <span className="w-2 h-2 rounded-full animate-bounce [animation-delay:300ms]" style={{ background: '#f59e0b' }} />
+              <span className="w-2 h-2 rounded-full animate-bounce [animation-delay:0ms]"   style={{ background: '#0d9488' }} />
+              <span className="w-2 h-2 rounded-full animate-bounce [animation-delay:150ms]" style={{ background: '#0d9488' }} />
+              <span className="w-2 h-2 rounded-full animate-bounce [animation-delay:300ms]" style={{ background: '#0d9488' }} />
             </span>
           </ChatBubble>
         )}
@@ -100,8 +100,8 @@ export default function Page() {
       <div
         className="shrink-0"
         style={{
-          background: '#fff8f0',
-          borderTop: '1px solid #fde68a',
+          background: '#f0fdfa',
+          borderTop: '1px solid #99f6e4',
           paddingBottom: 'env(safe-area-inset-bottom)',
         }}
       >

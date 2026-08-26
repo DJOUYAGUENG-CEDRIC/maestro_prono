@@ -41,8 +41,8 @@ export default function Header() {
       className="shrink-0 flex items-center gap-3 px-4 py-3 z-10 relative shadow-sm"
       style={{
         background: '#ffffff',
-        borderBottom: '1px solid #fde68a',
-        borderTop: '3px solid #dc2626',
+        borderBottom: '1px solid #99f6e4',
+        borderTop: '3px solid #0d9488',
       }}
     >
       <div className="relative shrink-0">
@@ -50,26 +50,26 @@ export default function Header() {
           src={PROFILE_IMAGE}
           alt={ASSISTANT_NAME}
           className="w-11 h-11 rounded-full object-cover"
-          style={{ boxShadow: '0 0 0 2px #f59e0b' }}
+          style={{ boxShadow: '0 0 0 2px #0d9488' }}
           onError={(e) => {
             e.target.onerror = null;
             e.target.src =
-              "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Crect width='48' height='48' rx='24' fill='%23dc2626'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='central' text-anchor='middle' fill='%23fde68a' font-size='14' font-family='sans-serif' font-weight='bold'%3EAF%3C/text%3E%3C/svg%3E";
+              "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Crect width='48' height='48' rx='24' fill='%230d9488'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='central' text-anchor='middle' fill='%23f0fdfa' font-size='14' font-family='sans-serif' font-weight='bold'%3EMP%3C/text%3E%3C/svg%3E";
           }}
         />
         <span
-          className="absolute bottom-0 right-0 w-3 h-3 rounded-full"
+          className="absolute bottom-0 right-0 w-3 h-3 rounded-full pulse-dot"
           style={{ background: '#22c55e', boxShadow: '0 0 0 2px #ffffff' }}
         />
       </div>
 
       <div className="flex-1 min-w-0">
-        <p className="font-semibold text-sm truncate leading-tight" style={{ color: '#7f1d1d' }}>
+        <p className="font-semibold text-sm truncate leading-tight shimmer-text">
           {ASSISTANT_NAME}
         </p>
         <div className="flex items-center gap-1.5 mt-0.5">
           <span className="w-1.5 h-1.5 rounded-full animate-pulse" style={{ background: '#22c55e' }} />
-          <span className="text-xs font-medium" style={{ color: '#b45309' }}>En ligne</span>
+          <span className="text-xs font-medium" style={{ color: '#0f766e' }}>En ligne</span>
         </div>
       </div>
 
@@ -77,7 +77,7 @@ export default function Header() {
         type="button"
         onClick={() => setMenuOpen((v) => !v)}
         className="shrink-0 flex items-center justify-center w-9 h-9 rounded-xl transition-colors"
-        style={{ color: '#92400e', background: menuOpen ? 'rgba(245,158,11,0.12)' : 'transparent' }}
+        style={{ color: '#134e4a', background: menuOpen ? 'rgba(13,148,136,0.1)' : 'transparent' }}
         aria-label="Menu"
       >
         {menuOpen ? <CloseIcon /> : <BurgerIcon />}
@@ -86,17 +86,17 @@ export default function Header() {
       {menuOpen && (
         <div
           className="absolute top-full right-3 mt-2 w-52 rounded-xl overflow-hidden z-50 shadow-lg"
-          style={{ background: '#ffffff', border: '1px solid #fde68a' }}
+          style={{ background: '#ffffff', border: '1px solid #99f6e4' }}
         >
           <button
             type="button"
             onClick={() => { setMenuOpen(false); router.push('/admin'); }}
             className="flex items-center gap-3 w-full px-4 py-3 text-sm text-left transition-colors"
-            style={{ color: '#92400e' }}
-            onMouseEnter={(e) => { e.currentTarget.style.background = '#fff8f0'; e.currentTarget.style.color = '#dc2626'; }}
-            onMouseLeave={(e) => { e.currentTarget.style.background = 'transparent'; e.currentTarget.style.color = '#92400e'; }}
+            style={{ color: '#0f766e' }}
+            onMouseEnter={(e) => { e.currentTarget.style.background = '#f0fdfa'; e.currentTarget.style.color = '#0d9488'; }}
+            onMouseLeave={(e) => { e.currentTarget.style.background = 'transparent'; e.currentTarget.style.color = '#0f766e'; }}
           >
-            <span style={{ color: '#dc2626' }}><LockIcon /></span>{' '}Connexion Admin
+            <span style={{ color: '#0d9488' }}><LockIcon /></span>{' '}Connexion Admin
           </button>
         </div>
       )}

@@ -1,11 +1,9 @@
 import './globals.css';
 
 export const metadata = {
-  title: 'Bot Apple of Fortune',
-  description: 'Assistant Apple of Fortune — Code promo 58NEX',
-  icons: {
-    icon: '/apple.jpeg',
-  },
+  title: 'Maestro Prono',
+  description: 'Assistant pronostics sportifs — Code promo 33LAM',
+  icons: { icon: '/maestro_prono.jpeg' },
 };
 
 export const viewport = {

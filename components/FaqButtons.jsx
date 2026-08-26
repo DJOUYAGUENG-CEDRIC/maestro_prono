@@ -1,7 +1,7 @@
 'use client';
 
 const FAQ_QUESTIONS = [
-  'Comment gagner sur Apple of Fortune ?',
+  'Comment avoir les failles Apple of Fortune ?',
   "Comment s'inscrire ?",
 ];
 
@@ -15,7 +15,7 @@ export default function FaqButtons({ onSelect, disabled }) {
           disabled={disabled}
           onClick={() => onSelect(question)}
           className="text-xs font-semibold rounded-full px-3 py-1.5 shadow-sm transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
-          style={{ background: '#ffffff', color: '#dc2626', border: '1px solid #fde68a' }}
+          style={{ background: '#ffffff', color: '#0d9488', border: '1px solid #99f6e4' }}
         >
           {question}
         </button>
