@@ -49,39 +49,3 @@ body {
 
 .markdown a           { color: #0d9488; text-decoration: underline; text-underline-offset: 2px; }
 .markdown a:hover     { color: #0f766e; }
-
-/* ── Range input (lecteur audio) ──────────────────────────────────────────── */
-.audio-range {
-  -webkit-appearance: none;
-  appearance: none;
-  height: 5px;
-  border-radius: 9999px;
-  outline: none;
-  cursor: pointer;
-  transition: opacity 0.15s;
-}
-
-.audio-range::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  width: 13px;
-  height: 13px;
-  border-radius: 50%;
-  background: #0d9488;
-  cursor: pointer;
-  margin-top: -4px;
-  box-shadow: 0 0 0 2px rgba(13, 148, 136, 0.3);
-}
-
-.audio-range::-moz-range-thumb {
-  width: 13px;
-  height: 13px;
-  border-radius: 50%;
-  background: #0d9488;
-  border: none;
-  cursor: pointer;
-}
-
-.audio-range::-webkit-slider-runnable-track {
-  height: 5px;
-  border-radius: 9999px;
-}

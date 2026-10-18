@@ -1,9 +1,9 @@
-// Base de connaissance Maestro Prono — Code 33LAM
+// Base de connaissance ORION PRONOS — Code ORION9
 // Les informations ci-dessous servent de référence au chatbot.
 // Toute information absente de cette base ne doit pas être inventée.
 
 export const KNOWLEDGE_BASE = `
-=== MAESTRO PRONO — CODE 33LAM ===
+=== ORION PRONOS — CODE ORION9 ===
 
 Ce service propose un accompagnement autour des pronostics sportifs ET
 des failles du jeu Apple of Fortune.
@@ -24,7 +24,7 @@ CONDITION 1 :
 L'utilisateur doit créer son compte sur l'une des plateformes partenaires
 en utilisant le code promotionnel :
 
-33LAM
+ORION9
 
 CONDITION 2 :
 L'utilisateur doit effectuer un PREMIER DÉPÔT minimum de 3$ ou 1 500 FCFA.
@@ -33,9 +33,9 @@ Les deux conditions sont CUMULATIVES.
 
 Cela signifie :
 
-- Inscription avec 33LAM + premier dépôt = conditions remplies.
-- Inscription sans utiliser 33LAM = conditions non remplies.
-- Dépôt sans inscription avec 33LAM = conditions non remplies.
+- Inscription avec ORION9 + premier dépôt = conditions remplies.
+- Inscription sans utiliser ORION9 = conditions non remplies.
+- Dépôt sans inscription avec ORION9 = conditions non remplies.
 
 Si les deux conditions ne sont pas respectées, l'utilisateur ne peut pas
 bénéficier de l'accès aux pronostics ni aux failles Apple of Fortune.
@@ -46,11 +46,11 @@ bénéficier de l'accès aux pronostics ni aux failles Apple of Fortune.
 
 Code promotionnel officiel :
 
-33LAM
+ORION9
 
 Le code doit être utilisé AU MOMENT DE L'INSCRIPTION sur la plateforme choisie.
 
-Le chatbot doit rappeler à l'utilisateur de vérifier que le code 33LAM est bien
+Le chatbot doit rappeler à l'utilisateur de vérifier que le code ORION9 est bien
 renseigné avant de valider son inscription.
 
 ==================================================
@@ -59,37 +59,51 @@ renseigné avant de valider son inscription.
 
 -- 1XBET --
 Lien d'inscription :
-https://reffpa.com/L?tag=d_5002527m_1599c_&site=5002527&ad=1599
+https://reffpa.com/L?tag=d_2105245m_1573c_&site=2105245&ad=1573
 
 Emplacement du code :
 Le champ "Code promotionnel" se trouve dans le formulaire d'inscription.
 
 -- MELBET --
 Lien d'inscription :
-https://refpa3665.com/L?tag=d_4756480m_45415c_&site=4756480&ad=45415&r=registration
+https://refpa3665.com/L?tag=d_2996773m_53523c_&site=2996773&ad=53523
+
+Emplacement du code :
+Le champ "Code promo" se trouve dans le formulaire d'inscription.
+
+-- BETWINNER --
+Lien d'inscription :
+https://bwredir.com/2twm?p=%2Fregistration%2F
 
 Emplacement du code :
 Le champ "Code promo" se trouve dans le formulaire d'inscription.
 
 -- WINWIN --
 Lien d'inscription :
-https://refpa34683.com/L?tag=d_5542070m_94904c_&site=5542070&ad=94904
+https://refpa712080.pro/L?tag=d_5242424m_94904c_&site=5242424&ad=94904
 
 Emplacement du code :
 Le champ "Code promotionnel" se trouve généralement vers le bas du formulaire.
+
+-- PARIS PESA --
+Lien d'inscription :
+https://paripesa.bet/pz20
+
+Emplacement du code :
+Le champ "Code promotionnel" se trouve dans le formulaire d'inscription.
 
 ==================================================
 === PROCÉDURE D'INSCRIPTION ===
 ==================================================
 
 Étape 1 :
-Ouvrir le lien officiel de la plateforme choisie (1XBET, MELBET ou WINWIN).
+Ouvrir le lien officiel de la plateforme choisie (1XBET, MELBET, BETWINNER, WINWIN ou PARIS PESA).
 
 Étape 2 :
 Créer son compte avec les informations demandées.
 
 Étape 3 :
-Entrer impérativement le code promo 33LAM.
+Entrer impérativement le code promo ORION9.
 
 Étape 4 :
 Vérifier que le code est bien pris en compte avant de terminer l'inscription.
@@ -107,7 +121,7 @@ Effectuer le premier dépôt minimum de 3$ ou 1 500 FCFA.
 Si le lien ne s'ouvre pas :
 → proposer de copier le lien et de l'ouvrir dans Google Chrome.
 
-Si le champ 33LAM n'est pas visible :
+Si le champ ORION9 n'est pas visible :
 → faire défiler le formulaire vers le bas.
 → vérifier la présence d'un champ "Code promotionnel", "Code promo" ou "Code bonus".
 
@@ -143,7 +157,7 @@ Les failles Apple of Fortune sont des stratégies d'analyse du jeu permettant
 d'augmenter les chances de succès sur la durée.
 
 Ces failles sont EXCLUSIVEMENT réservées aux utilisateurs ayant :
-1. S'inscrire avec le code 33LAM sur l'une des plateformes partenaires.
+1. S'inscrire avec le code ORION9 sur l'une des plateformes partenaires.
 2. Effectué un premier dépôt minimum de 3$ ou 1 500 FCFA.
 
 Le chatbot ne doit jamais révéler une faille à un utilisateur qui n'a pas

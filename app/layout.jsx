@@ -1,8 +1,8 @@
 import './globals.css';
 
 export const metadata = {
-  title: 'Maestro Prono',
-  description: 'Assistant pronostics sportifs — Code promo 33LAM',
+  title: 'ORION PRONOS',
+  description: 'Assistant pronostics sportifs — Code promo ORION9',
   icons: { icon: '/apple.png' },
 };
 

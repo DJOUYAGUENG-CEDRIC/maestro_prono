@@ -33,7 +33,7 @@ export default function AdminLogin() {
         style={{ background: '#ffffff', border: '1px solid #99f6e4' }}
       >
         <div className="text-center mb-8">
-          <p className="text-xl font-bold tracking-wide" style={{ color: '#134e4a' }}>Maestro Prono</p>
+          <p className="text-xl font-bold tracking-wide" style={{ color: '#134e4a' }}>ORION PRONOS</p>
           <p className="text-sm mt-1" style={{ color: '#0d9488' }}>Panel Administrateur</p>
         </div>
 
