@@ -40,12 +40,12 @@ body {
 .markdown p           { margin-bottom: 0.5rem; }
 .markdown p:last-child { margin-bottom: 0; }
 
-.markdown strong      { font-weight: 700; color: #0ea5e9; }
+.markdown strong      { font-weight: 700; }
 
 .markdown ul          { list-style: disc; margin-left: 1.25rem; margin-bottom: 0.5rem; }
 .markdown ol          { list-style: decimal; margin-left: 1.25rem; margin-bottom: 0.5rem; }
 .markdown li          { margin-bottom: 0.25rem; line-height: 1.5; }
 .markdown li:last-child { margin-bottom: 0; }
 
-.markdown a           { color: #0ea5e9; text-decoration: underline; text-underline-offset: 2px; }
-.markdown a:hover     { color: #0284c7; }
+.markdown a           { color: #229ED9; text-decoration: underline; text-underline-offset: 2px; }
+.markdown a:hover     { color: #1a7fb0; }

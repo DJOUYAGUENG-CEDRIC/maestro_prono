@@ -34,15 +34,14 @@ export default function ChatBubble({ sender, text, children }) {
         style={
           isUser
             ? {
-                background: 'linear-gradient(135deg, #0284c7, #0ea5e9)',
+                background: '#3390ec',
                 color: '#ffffff',
                 borderBottomRightRadius: '4px',
                 lineHeight: '1.5',
               }
             : {
                 background: '#ffffff',
-                color: '#0c4a6e',
-                border: '1px solid #bae6fd',
+                color: '#17212b',
                 borderBottomLeftRadius: '4px',
               }
         }
