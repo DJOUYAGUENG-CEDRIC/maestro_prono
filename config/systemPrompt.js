@@ -139,7 +139,7 @@ BETWINNER :
 https://bwredir.com/2twm?p=%2Fregistration%2F
 
 WINWIN :
-https://refpa712080.pro/L?tag=d_5242424m_94904c_&site=5242424&ad=94904
+https://refpa49781.com/L?tag=d_5242424m_94904c_&site=5242424&ad=94904
 
 L'utilisateur peut choisir la plateforme qui lui convient.
 

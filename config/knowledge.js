@@ -80,7 +80,7 @@ Le champ "Code promo" se trouve dans le formulaire d'inscription.
 
 -- WINWIN --
 Lien d'inscription :
-https://refpa712080.pro/L?tag=d_5242424m_94904c_&site=5242424&ad=94904
+https://refpa49781.com/L?tag=d_5242424m_94904c_&site=5242424&ad=94904
 
 Emplacement du code :
 Le champ "Code promotionnel" se trouve généralement vers le bas du formulaire.
