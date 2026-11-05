@@ -41,8 +41,8 @@ export default function Header() {
       className="shrink-0 flex items-center gap-3 px-4 py-3 z-10 relative shadow-sm"
       style={{
         background: '#ffffff',
-        borderBottom: '1px solid #99f6e4',
-        borderTop: '3px solid #0d9488',
+        borderBottom: '1px solid #bae6fd',
+        borderTop: '3px solid #0ea5e9',
       }}
     >
       <div className="relative shrink-0">
@@ -50,11 +50,11 @@ export default function Header() {
           src={PROFILE_IMAGE}
           alt={ASSISTANT_NAME}
           className="w-11 h-11 rounded-full object-cover"
-          style={{ boxShadow: '0 0 0 2px #0d9488' }}
+          style={{ boxShadow: '0 0 0 2px #0ea5e9' }}
           onError={(e) => {
             e.target.onerror = null;
             e.target.src =
-              "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Crect width='48' height='48' rx='24' fill='%230d9488'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='central' text-anchor='middle' fill='%23f0fdfa' font-size='14' font-family='sans-serif' font-weight='bold'%3EMP%3C/text%3E%3C/svg%3E";
+              "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Crect width='48' height='48' rx='24' fill='%230ea5e9'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='central' text-anchor='middle' fill='%23f0f9ff' font-size='14' font-family='sans-serif' font-weight='bold'%3EMP%3C/text%3E%3C/svg%3E";
           }}
         />
         <span
@@ -69,7 +69,7 @@ export default function Header() {
         </p>
         <div className="flex items-center gap-1.5 mt-0.5">
           <span className="w-1.5 h-1.5 rounded-full animate-pulse" style={{ background: '#22c55e' }} />
-          <span className="text-xs font-medium" style={{ color: '#0f766e' }}>En ligne</span>
+          <span className="text-xs font-medium" style={{ color: '#0284c7' }}>En ligne</span>
         </div>
       </div>
 
@@ -77,7 +77,7 @@ export default function Header() {
         type="button"
         onClick={() => setMenuOpen((v) => !v)}
         className="shrink-0 flex items-center justify-center w-9 h-9 rounded-xl transition-colors"
-        style={{ color: '#134e4a', background: menuOpen ? 'rgba(13,148,136,0.1)' : 'transparent' }}
+        style={{ color: '#0c4a6e', background: menuOpen ? 'rgba(14,165,233,0.1)' : 'transparent' }}
         aria-label="Menu"
       >
         {menuOpen ? <CloseIcon /> : <BurgerIcon />}
@@ -86,17 +86,17 @@ export default function Header() {
       {menuOpen && (
         <div
           className="absolute top-full right-3 mt-2 w-52 rounded-xl overflow-hidden z-50 shadow-lg"
-          style={{ background: '#ffffff', border: '1px solid #99f6e4' }}
+          style={{ background: '#ffffff', border: '1px solid #bae6fd' }}
         >
           <button
             type="button"
             onClick={() => { setMenuOpen(false); router.push('/admin'); }}
             className="flex items-center gap-3 w-full px-4 py-3 text-sm text-left transition-colors"
-            style={{ color: '#0f766e' }}
-            onMouseEnter={(e) => { e.currentTarget.style.background = '#f0fdfa'; e.currentTarget.style.color = '#0d9488'; }}
-            onMouseLeave={(e) => { e.currentTarget.style.background = 'transparent'; e.currentTarget.style.color = '#0f766e'; }}
+            style={{ color: '#0284c7' }}
+            onMouseEnter={(e) => { e.currentTarget.style.background = '#f0f9ff'; e.currentTarget.style.color = '#0ea5e9'; }}
+            onMouseLeave={(e) => { e.currentTarget.style.background = 'transparent'; e.currentTarget.style.color = '#0284c7'; }}
           >
-            <span style={{ color: '#0d9488' }}><LockIcon /></span>{' '}Connexion Admin
+            <span style={{ color: '#0ea5e9' }}><LockIcon /></span>{' '}Connexion Admin
           </button>
         </div>
       )}

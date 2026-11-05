@@ -23,7 +23,7 @@ function CopyIcon() {
 
 function CheckIcon() {
   return (
-    <svg viewBox="0 0 24 24" fill="none" stroke="#0d9488" strokeWidth="2.5" className="w-3.5 h-3.5">
+    <svg viewBox="0 0 24 24" fill="none" stroke="#0ea5e9" strokeWidth="2.5" className="w-3.5 h-3.5">
       <polyline points="20 6 9 17 4 12" />
     </svg>
   );
@@ -39,6 +39,7 @@ function WhatsAppIcon() {
 
 export default function PlatformsCard() {
   const [copiedName, setCopiedName] = useState(null);
+  const [open, setOpen] = useState(true);
 
   const handleCopy = async (code, name) => {
     try {
@@ -54,25 +55,44 @@ export default function PlatformsCard() {
     <div className="px-3 pt-3 pb-1">
       <div
         className="rounded-xl px-3 py-2.5 shadow-sm"
-        style={{ background: '#f0fdfa', border: '1px solid #99f6e4' }}
+        style={{ background: '#f0f9ff', border: '1px solid #bae6fd' }}
       >
-        <p className="text-[10px] font-bold uppercase tracking-widest mb-2" style={{ color: '#0f766e' }}>
-          Plateformes recommandées
-        </p>
+        <button
+          type="button"
+          onClick={() => setOpen((v) => !v)}
+          aria-expanded={open}
+          className={`flex w-full items-center justify-between ${open ? 'mb-2' : ''}`}
+        >
+          <span className="text-[10px] font-bold uppercase tracking-widest" style={{ color: '#0284c7' }}>
+            Plateformes recommandées
+          </span>
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="#0284c7"
+            strokeWidth="2.5"
+            className="w-4 h-4 transition-transform"
+            style={{ transform: open ? 'rotate(180deg)' : 'none' }}
+          >
+            <polyline points="6 9 12 15 18 9" />
+          </svg>
+        </button>
 
+        {open && (
+        <>
         <div className="flex flex-wrap gap-2 mb-2">
           {PLATFORMS.map((p) => (
             <div
               key={p.name}
               className="flex items-center gap-1.5 rounded-full px-2.5 py-1.5"
-              style={{ background: '#ffffff', border: '1px solid #99f6e4' }}
+              style={{ background: '#ffffff', border: '1px solid #bae6fd' }}
             >
               <a
                 href={p.url}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-1 text-xs font-semibold transition-colors"
-                style={{ color: '#134e4a' }}
+                style={{ color: '#0c4a6e' }}
                 title={`Rejoindre ${p.name}`}
               >
                 <ExternalLinkIcon />
@@ -81,14 +101,14 @@ export default function PlatformsCard() {
 
               {p.code && (
                 <>
-                  <span className="text-xs font-mono font-bold" style={{ color: '#0d9488' }}>
+                  <span className="text-xs font-mono font-bold" style={{ color: '#0ea5e9' }}>
                     {p.code}
                   </span>
                   <button
                     type="button"
                     onClick={() => handleCopy(p.code, p.name)}
                     className="transition-colors ml-0.5"
-                    style={{ color: copiedName === p.name ? '#0d9488' : '#0f766e' }}
+                    style={{ color: copiedName === p.name ? '#0ea5e9' : '#0284c7' }}
                     title={`Copier le code ${p.code}`}
                     aria-label={`Copier le code ${p.code}`}
                   >
@@ -101,8 +121,8 @@ export default function PlatformsCard() {
         </div>
 
         {WHATSAPP_URL && (
-          <div className="flex items-center gap-2 pt-2" style={{ borderTop: '1px solid #99f6e4' }}>
-            <span className="text-xs" style={{ color: '#0f766e' }}>
+          <div className="flex items-center gap-2 pt-2" style={{ borderTop: '1px solid #bae6fd' }}>
+            <span className="text-xs" style={{ color: '#0284c7' }}>
               Retrouvez-moi sur
             </span>
             <a
@@ -116,6 +136,8 @@ export default function PlatformsCard() {
               <WhatsAppIcon />
             </a>
           </div>
+        )}
+        </>
         )}
       </div>
     </div>

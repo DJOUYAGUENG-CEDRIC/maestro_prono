@@ -3,7 +3,7 @@ import './globals.css';
 export const metadata = {
   title: 'ORION PRONOS',
   description: 'Assistant pronostics sportifs — Code promo ORION9',
-  icons: { icon: '/apple.png' },
+  icons: { icon: '/logo.jpg' },
 };
 
 export const viewport = {
