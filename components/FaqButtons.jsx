@@ -2,7 +2,7 @@
 
 const FAQ_QUESTIONS = [
   'Comment avoir la faille Apple of Fortune ?',
-  'Comment avoir les grosses cotes gratuites ?',
+  'Comment avoir la confiance du jour ?',
 ];
 
 export default function FaqButtons({ onSelect, disabled }) {

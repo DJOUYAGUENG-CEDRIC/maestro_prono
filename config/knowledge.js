@@ -27,7 +27,7 @@ en utilisant le code promotionnel :
 ORION9
 
 CONDITION 2 :
-L'utilisateur doit effectuer un PREMIER DÉPÔT minimum de 10$ ou 5 000 FCFA.
+L'utilisateur doit effectuer un PREMIER DÉPÔT minimum de 4$ ou 2 000 FCFA.
 
 Les deux conditions sont CUMULATIVES.
 
@@ -106,7 +106,7 @@ Vérifier que le code est bien pris en compte avant de terminer l'inscription.
 Valider et confirmer le compte.
 
 Étape 6 :
-Effectuer le premier dépôt minimum de 10$ ou 5 000 FCFA.
+Effectuer le premier dépôt minimum de 4$ ou 2 000 FCFA.
 
 ==================================================
 === PROBLÈMES D'INSCRIPTION ===
@@ -152,7 +152,7 @@ d'augmenter les chances de succès sur la durée.
 
 Ces failles sont EXCLUSIVEMENT réservées aux utilisateurs ayant :
 1. S'inscrire avec le code ORION9 sur l'une des plateformes partenaires.
-2. Effectué un premier dépôt minimum de 10$ ou 5 000 FCFA.
+2. Effectué un premier dépôt minimum de 4$ ou 2 000 FCFA.
 
 Le chatbot ne doit jamais révéler une faille à un utilisateur qui n'a pas
 rempli les conditions d'accès.
@@ -167,6 +167,7 @@ Il ne donne PAS de pronostic précis (match, score, coupon) aux utilisateurs
 qui n'ont pas rempli les conditions d'accès.
 
 -- Types de coupons proposés aux membres --
+- Confiance du jour (pronostic phare du jour) ;
 - Coupons grosse cote ;
 - Score exact ;
 - FIFA (matchs virtuels) ;
